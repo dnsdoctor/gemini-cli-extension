@@ -1,0 +1,10 @@
+description = "Scan a domain's SPF, DMARC, DKIM, MX, DNS health, blacklists and expiry with DNS Doctor, then propose the next safe DMARC step."
+prompt = """
+Use the DNS Doctor tools for the domain: {{args}}
+
+1. Call scan_domain for it. Read the checks failing-first; a 'temperror' status is transient, not a failure, and not_registered: true means the domain does not resolve (say so and stop).
+2. Summarise each check in one line: status, then the finding. Print every fix_record the report returns VERBATIM in a code block; never rewrite or reformat a record.
+3. Call build_dmarc_upgrade for the domain. If it returns a record, print it verbatim and explain the rationale; if record is null, the rationale is the answer. Never compose a DMARC record yourself.
+4. SPF is diagnose-only: report the SPF findings but propose no SPF edits.
+5. Close by reminding that a human must approve any DNS change, and print the report_url from next_steps as a clickable markdown link.
+"""

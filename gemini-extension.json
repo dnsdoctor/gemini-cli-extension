@@ -1,0 +1,12 @@
+{
+  "name": "dns-doctor",
+  "version": "0.1.0",
+  "description": "Scan, diagnose and fix a domain's DNS and email authentication (SPF, DMARC, DKIM) with deterministic verdicts and copy-paste records from dnsdoctor.dev; check DNS propagation from six locations; audit SPF includes.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "dns-doctor": {
+      "httpUrl": "https://dnsdoctor.dev/mcp",
+      "timeout": 60000
+    }
+  }
+}
