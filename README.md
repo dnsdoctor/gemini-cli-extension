@@ -1,6 +1,6 @@
 # DNS Doctor for Gemini CLI
 
-A [Gemini CLI](https://geminicli.com) extension that connects the [DNS Doctor](https://dnsdoctor.dev) MCP server: 16 tools to scan, diagnose and fix a domain's email authentication (SPF, DMARC, DKIM), check a DNS change from six locations on four continents, audit an SPF include chain, and read monitoring alerts. Every verdict is deterministic and every record comes from a validating engine, never from a language model.
+A [Gemini CLI](https://geminicli.com) extension that connects the [DNS Doctor](https://dnsdoctor.dev) MCP server: 20 tools to scan, diagnose and fix a domain's email authentication (SPF, DMARC, DKIM), check a DNS change from six locations on four continents, audit an SPF include chain, and read monitoring alerts. Every verdict is deterministic and every record comes from a validating engine, never from a language model.
 
 ## Install
 
