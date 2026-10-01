@@ -1,6 +1,6 @@
 # DNS Doctor for Gemini CLI
 
-A [Gemini CLI](https://geminicli.com) extension that connects the [DNS Doctor](https://dnsdoctor.dev) MCP server: 20 tools to scan, diagnose and fix a domain's email authentication (SPF, DMARC, DKIM), check a DNS change from six locations on four continents, audit an SPF include chain, and read monitoring alerts. Every verdict is deterministic and every record comes from a validating engine, never from a language model.
+A [Gemini CLI](https://geminicli.com) extension that connects the [DNS Doctor](https://dnsdoctor.dev) MCP server: 22 tools to scan, diagnose and fix a domain's email authentication (SPF, DMARC, DKIM), check a DNS change from six locations on four continents, audit an SPF include chain, and read monitoring alerts. Every verdict is deterministic and every record comes from a validating engine, never from a language model.
 
 ## Install
 
@@ -28,7 +28,7 @@ No API key is needed. The extension adds the hosted MCP server over streamable H
 
 ## Optional API token
 
-An API token (Dashboard, Settings, API tokens) raises the anonymous rate limit and unlocks the two monitoring reads. Add it to your own `~/.gemini/settings.json` entry for the server; local settings override the extension's defaults:
+An API token (Dashboard, Settings, API tokens) raises the anonymous rate limit and unlocks the three monitoring reads. Add it to your own `~/.gemini/settings.json` entry for the server; local settings override the extension's defaults:
 
 ```json
 {
