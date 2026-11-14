@@ -1,5 +1,7 @@
 # DNS Doctor for Gemini CLI
 
+[![Glama](https://glama.ai/mcp/servers/dnsdoctor/mcp/badges/score.svg)](https://glama.ai/mcp/servers/dnsdoctor/mcp) [![mcp.market](https://mcp.market/badge/dnsdoctor-dns-doctor.svg)](https://mcp.market/server/dnsdoctor-dns-doctor) [![mcptry](https://mcptry.com/badge/dev.dnsdoctor/dns-doctor)](https://mcptry.com/servers/dev.dnsdoctor/dns-doctor) [![mcprush](https://mcprush.com/badge/dns-doctor-mcp/score.svg)](https://mcprush.com/to/dns-doctor-mcp?ref=badge)
+
 A [Gemini CLI](https://geminicli.com) extension that connects the [DNS Doctor](https://dnsdoctor.dev) MCP server: 29 tools to scan, diagnose and fix a domain's email authentication (SPF, DMARC, DKIM), check a DNS change from six locations on four continents, audit an SPF include chain, and read monitoring alerts. Every verdict is deterministic and every record comes from a validating engine, never from a language model.
 
 ## Install
