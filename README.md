@@ -4,7 +4,7 @@
 
 **Get your domain's email working, and know it stays that way.** See why mail lands in spam, get the exact DNS record to fix it, and check the change is live everywhere.
 
-A [Gemini CLI](https://geminicli.com) extension that connects the [DNS Doctor](https://dnsdoctor.dev) MCP server: 29 tools to scan, diagnose and fix a domain's email authentication (SPF, DMARC, DKIM), check a DNS change from six locations on four continents, audit an SPF include chain, and read monitoring alerts. Every verdict is deterministic and every record comes from a validating engine, never from a language model.
+A [Gemini CLI](https://geminicli.com) extension that connects the [DNS Doctor](https://dnsdoctor.dev) MCP server: 30 tools to scan, diagnose and fix a domain's email authentication (SPF, DMARC, DKIM), check a DNS change from six locations on four continents, audit an SPF include chain, and read monitoring alerts. Every verdict is deterministic and every record comes from a validating engine, never from a language model.
 
 ## Install
 
